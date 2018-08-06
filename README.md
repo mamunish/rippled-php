@@ -1,7 +1,7 @@
 # rippled-php
 
-[![Build Status](https://travis-ci.org/foxrp/rippled-php.svg?branch=master)](https://travis-ci.org/foxrp/rippled-php)
-[![Coverage Status](https://coveralls.io/repos/github/foxrp/rippled-php/badge.svg?branch=master)](https://coveralls.io/github/foxrp/rippled-php?branch=master)
+[![Build Status](https://travis-ci.org/gegosoft/rippled-php.svg?branch=master)](https://travis-ci.org/gegosoft/rippled-php)
+[![Coverage Status](https://coveralls.io/repos/github/gegosoft/rippled-php/badge.svg?branch=master)](https://coveralls.io/github/gegosoft/rippled-php?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/matthiasnoback/badges/v/stable.png)](https://packagist.org/packages/matthiasnoback/badges)
 [![Latest Unstable Version](https://poser.pugx.org/matthiasnoback/badges/v/unstable.png)](https://packagist.org/packages/matthiasnoback/badges)
 
@@ -29,7 +29,7 @@ composer require php-http/guzzle6-adapter php-http/message
 ## Installation
 
 ```
-composer require foxrp/rippled-php
+composer require gegosoft/rippled-php
 ```
 
 ## QuickStart
@@ -39,7 +39,7 @@ composer require foxrp/rippled-php
 ```php
 <?php
 
-use FOXRP\Rippled\Client;
+use gegosoft\Rippled\Client;
 
 $client = new Client('https://s1.ripple.com:51234');
 
@@ -92,7 +92,7 @@ The functional test suite loads endpoint and account info from `.env.test`.
 
 If you haven't already, copy `.env.test.dist` to `.env.test` and add your account info.
 
-`FOXRP_ACCT_1_ID` requires `100` XRP for the tests.
+`gegosoft_ACCT_1_ID` requires `100` XRP for the tests.
 
 Use the following command to run the functional test suite.
 
