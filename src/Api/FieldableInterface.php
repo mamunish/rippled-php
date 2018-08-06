@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
 /**
  * Fieldable provides methods to build fieldable objects which can be validated.

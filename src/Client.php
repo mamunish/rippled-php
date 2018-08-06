@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled;
+namespace Mamunish\Rippled;
 
 use Http\Client\HttpClient;
 use Http\Discovery\HttpClientDiscovery;
 use Http\Discovery\MessageFactoryDiscovery;
 use Http\Message\MessageFactory;
-use Gegosoft\Rippled\Api\Response;
-use Gegosoft\Rippled\Api\Request;
+use Mamunish\Rippled\Api\Response;
+use Mamunish\Rippled\Api\Request;
 
 /**
  *  A rippled client.

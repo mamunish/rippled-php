@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
-use Gegosoft\Rippled\Exception\FieldException;
+use Mamunish\Rippled\Exception\FieldException;
 
 /**
  * Field.

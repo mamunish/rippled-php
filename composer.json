@@ -1,5 +1,5 @@
 {
-    "name": "gegosoft/rippled-php",
+    "name": "mamunish/rippled-php",
     "description": "A PHP library for communication with rippled. (The XRP Ledger)",
     "keywords": ["library", "composer", "package"],
     "minimum-stability": "stable",
@@ -33,13 +33,13 @@
     },
 	"autoload": {
         "psr-4": {
-            "Gegosoft\\Rippled\\": "src/"
+            "Mamunish\\Rippled\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gegosoft\\Rippled\\Tests\\": "tests/unit",
-            "Gegosoft\\Rippled\\FunctionalTests\\": "tests/functional"
+            "Mamunish\\Rippled\\Tests\\": "tests/unit",
+            "Mamunish\\Rippled\\FunctionalTests\\": "tests/functional"
         }
     }
 }

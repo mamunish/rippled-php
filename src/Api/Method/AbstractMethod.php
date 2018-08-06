@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api\Method;
+namespace Mamunish\Rippled\Api\Method;
 
-use Gegosoft\Rippled\Api\AbstractFieldable;
-use Gegosoft\Rippled\Exception\InvalidParameterException;
+use Mamunish\Rippled\Api\AbstractFieldable;
+use Mamunish\Rippled\Exception\InvalidParameterException;
 
 /**
  * Provides an abstract for defining methods and validating their fields.

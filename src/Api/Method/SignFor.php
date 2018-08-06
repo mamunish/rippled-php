@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api\Method;
+namespace Mamunish\Rippled\Api\Method;
 
-use Gegosoft\Rippled\Api\Field;
-use Gegosoft\Rippled\Exception\InvalidParameterException;
+use Mamunish\Rippled\Api\Field;
+use Mamunish\Rippled\Exception\InvalidParameterException;
 
 /**
  * SignFor Method Class
@@ -17,7 +17,7 @@ class SignFor extends AbstractMethod
     /**
      * {@inheritDoc}
      *
-     * @throws \Gegosoft\Rippled\Exception\FieldException
+     * @throws \Mamunish\Rippled\Exception\FieldException
      */
     public function setFields(): void
     {

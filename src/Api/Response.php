@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
-use Gegosoft\Rippled\Exception\ResponseErrorException;
-use Gegosoft\Rippled\Exception\RippledException;
+use Mamunish\Rippled\Exception\ResponseErrorException;
+use Mamunish\Rippled\Exception\RippledException;
 use Psr\Http\Message\ResponseInterface;
 
 class Response

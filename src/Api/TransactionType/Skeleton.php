@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api\TransactionType;
+namespace Mamunish\Rippled\Api\TransactionType;
 
-use Gegosoft\Rippled\Api\Field;
+use Mamunish\Rippled\Api\Field;
 
 /**
  * This class is used by the generator as a template for new transaction types.
@@ -12,7 +12,7 @@ class Skeleton extends AbstractTransactionType
     /**
      * {@inheritDoc}
      *
-     * @throws \Gegosoft\Rippled\Exception\FieldException
+     * @throws \Mamunish\Rippled\Exception\FieldException
      */
     public function setFields(): void
     {

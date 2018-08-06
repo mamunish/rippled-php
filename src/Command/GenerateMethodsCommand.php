@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Command;
+namespace Mamunish\Rippled\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Filesystem\Filesystem;
-use Gegosoft\Rippled\Util;
+use Mamunish\Rippled\Util;
 
 class GenerateMethodsCommand extends Command
 {

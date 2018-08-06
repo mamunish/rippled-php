@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api\TransactionType;
+namespace Mamunish\Rippled\Api\TransactionType;
 
-use Gegosoft\Rippled\Api\AbstractFieldable;
-use Gegosoft\Rippled\Api\Field;
-use Gegosoft\Rippled\Api\FieldableInterface;
+use Mamunish\Rippled\Api\AbstractFieldable;
+use Mamunish\Rippled\Api\Field;
+use Mamunish\Rippled\Api\FieldableInterface;
 
 /**
  * Provides an abstract for defining transaction types and validating their fields.
@@ -12,7 +12,7 @@ use Gegosoft\Rippled\Api\FieldableInterface;
 abstract class AbstractTransactionType extends AbstractFieldable implements FieldableInterface
 {
     /**
-     * @throws \Gegosoft\Rippled\Exception\FieldException
+     * @throws \Mamunish\Rippled\Exception\FieldException
      */
     public function setFields(): void
     {

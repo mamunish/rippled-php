@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
-use Gegosoft\Rippled\Exception\InvalidParameterException;
+use Mamunish\Rippled\Exception\InvalidParameterException;
 
 /**
  * {@inheritDoc}

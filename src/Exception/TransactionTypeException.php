@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Exception;
+namespace Mamunish\Rippled\Exception;
 
 /**
  * An exception for transaction type errors.
  *
- * @package Gegosoft\Rippled\Exception
+ * @package Mamunish\Rippled\Exception
  */
 class TransactionTypeException extends RippledException
 {

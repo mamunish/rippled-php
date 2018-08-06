@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
 use Psr\Http\Message\ResponseInterface;
 use Symfony\Component\Process\Process;
-use Gegosoft\Rippled\Client;
-use Gegosoft\Rippled\Exception\TransactionException;
-use Gegosoft\Rippled\Exception\TransactionSignException;
-use Gegosoft\Rippled\Exception\TransactionTypeException;
+use Mamunish\Rippled\Client;
+use Mamunish\Rippled\Exception\TransactionException;
+use Mamunish\Rippled\Exception\TransactionSignException;
+use Mamunish\Rippled\Exception\TransactionTypeException;
 
 class Transaction
 {
@@ -62,7 +62,7 @@ class Transaction
      */
     public function findClass(string $type): string
     {
-        $class = '\\Gegosoft\Rippled\\Api\\TransactionType\\' . $type;
+        $class = '\\Mamunish\Rippled\\Api\\TransactionType\\' . $type;
         if (!class_exists($class)) {
             throw new TransactionTypeException(sprintf('No class found for transaction type %s', $type));
         }

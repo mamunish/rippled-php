@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Exception;
+namespace Mamunish\Rippled\Exception;
 
 /**
  * An exception for field errors.
  *
- * @package Gegosoft\Rippled\Exception
+ * @package Mamunish\Rippled\Exception
  */
 class FieldException extends RippledException
 {

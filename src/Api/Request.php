@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api;
+namespace Mamunish\Rippled\Api;
 
-use Gegosoft\Rippled\Client;
+use Mamunish\Rippled\Client;
 
 class Request
 {
@@ -52,7 +52,7 @@ class Request
      */
     private function findClass(string $methodName): string
     {
-        $class = '\\Gegosoft\Rippled\\Api\\Method\\' . \Gegosoft\Rippled\Util::CaseFromSnake($methodName);
+        $class = '\\Mamunish\Rippled\\Api\\Method\\' . \Mamunish\Rippled\Util::CaseFromSnake($methodName);
         if (!class_exists($class)) {
             throw new \Exception(sprintf('No class found for method: %s', $methodName));
         }

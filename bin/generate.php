@@ -8,7 +8,7 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new \Gegosoft\Rippled\Command\GenerateTypesCommand());
-$application->add(new \Gegosoft\Rippled\Command\GenerateMethodsCommand());
+$application->add(new \Mamunish\Rippled\Command\GenerateTypesCommand());
+$application->add(new \Mamunish\Rippled\Command\GenerateMethodsCommand());
 
 $application->run();

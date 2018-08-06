@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Gegosoft\Rippled\Api\TransactionType;
+namespace Mamunish\Rippled\Api\TransactionType;
 
-use Gegosoft\Rippled\Api\Field;
+use Mamunish\Rippled\Api\Field;
 
 /**
  * CheckCash Transaction Type Class
@@ -21,7 +21,7 @@ class CheckCash extends AbstractTransactionType
     /**
      * {@inheritDoc}
      *
-     * @throws \Gegosoft\Rippled\Exception\FieldException
+     * @throws \Mamunish\Rippled\Exception\FieldException
      */
     public function setFields(): void
     {
